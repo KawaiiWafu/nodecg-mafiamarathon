@@ -14,11 +14,7 @@
     "nodecg-bundle"
   ],
   "nodecg": {
-    "compatibleRange": "^1.1.1",
-    "dashboardPanels": [
-    ],
-    "graphics": [
-    ]
+    "compatibleRange": "^1.1.1"
   },
   "repository": "https://github.com/nodecg/nodecg.git",
   "private": true
