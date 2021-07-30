@@ -14,6 +14,7 @@ module.exports = function (nodecg) {
 		if (req.query.key == nodecg.bundleConfig.key) {
 			nodecg.sendMessageToBundle('timerReset', 'nodecg-speedcontrol', false);
 			nodecg.sendMessageToBundle('timerStart', 'nodecg-speedcontrol');
+			finalTimes.value = {};
 			res.send('Timer started');
 		}
 		else {
